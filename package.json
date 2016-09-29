@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/juanmendez/protractor-basics#readme",
   "devDependencies": {
-    "babel-register": "^6.16.3"
+    "babel-register": "^6.16.3",
+    "protractor": "^4.0.9"
   }
 }
