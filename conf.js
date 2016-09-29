@@ -17,5 +17,10 @@ exports.config = {
     /*01*/
     onPrepare: function () {
         require("babel-register");
+    },
+
+    // Options to be passed to Jasmine-node.
+    jasmineNodeOpts: {
+        showColors: true, // Use colors in the command line report.
     }
 }

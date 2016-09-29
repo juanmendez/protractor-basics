@@ -1,3 +1,5 @@
-Upon configuration lets use Babel. :) We are going to look into this solution: https://github.com/angular/protractor/issues/2049
- 
-We make sure to update conf.js to each file found in the test folder.
+This branch is related to api-overview
+http://www.protractortest.org/#/api-overview
+
+We are using here Faker.js to fill in dummy data
+https://github.com/marak/Faker.js/

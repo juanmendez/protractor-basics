@@ -21,6 +21,7 @@
   "homepage": "https://github.com/juanmendez/protractor-basics#readme",
   "devDependencies": {
     "babel-register": "^6.16.3",
+    "faker": "^3.1.0",
     "protractor": "^4.0.9"
   }
 }
