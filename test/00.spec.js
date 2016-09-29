@@ -10,24 +10,16 @@ describe('angularjs homepage', function() {
         faker = require('faker');
     });
 
-    it('should greet the named user', function() {
+    it('should match title', function() {
         // Load the AngularJS homepage.
-        browser.get('http://www.angularjs.org');
+        browser.get('http://localhost:9001/#/welcome', 70000);
+        expect(browser.getTitle()).toEqual( "CUI IDM B2X" );
 
-        const randomName = faker.name.findName();
+        browser.waitForAngular();
+        const btn = browser.findElement(by.className("cui-card__button"));
+        btn.click();
 
-        // Find the element with ng-model matching 'yourName' - this will
-        // find the <input type="text" ng-model="yourName"/> element - and then
-        // type 'Julie' into it.
-        element(by.model('yourName')).sendKeys(randomName);
-
-        // Find the element with binding matching 'yourName' - this will
-        // find the <h1>Hello {{yourName}}!</h1> element.
-        var greeting = element(by.binding('yourName'));
-
-        // Assert that the text element has the expected value.
-        // Protractor patches 'expect' to understand promises.
-
-        expect(greeting.getText()).toEqual('Hello ' + randomName + '!');
+        browser.waitForAngular();
+        expect(browser.getTitle()).toEqual( "CUI IDM B2X" );
     });
 });

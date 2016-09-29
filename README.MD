@@ -1,5 +1,5 @@
-This branch is related to api-overview
-http://www.protractortest.org/#/api-overview
+This demo will be based on testing a local app.
+The app is found in this repository
 
-We are using here Faker.js to fill in dummy data
-https://github.com/marak/Faker.js/
+https://github.com/taylonr/intro-to-protractor
+(do: npm install, then grunt (to run the app))
