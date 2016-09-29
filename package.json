@@ -1,0 +1,25 @@
+{
+  "name": "protractor-basics",
+  "version": "1.0.0",
+  "description": "Upon configuration lets use Babel. :) We are going to look into this solution: https://github.com/angular/protractor/issues/2049",
+  "main": "conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanmendez/protractor-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanmendez/protractor-basics/issues"
+  },
+  "homepage": "https://github.com/juanmendez/protractor-basics#readme",
+  "devDependencies": {
+    "babel-register": "^6.16.3"
+  }
+}
